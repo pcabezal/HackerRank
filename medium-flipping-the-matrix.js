@@ -17,4 +17,4 @@ function flippingMatrix(matrix) {
     }
   
     return total;
-  }
+}
