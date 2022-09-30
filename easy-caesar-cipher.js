@@ -1,6 +1,6 @@
 function caesarCipher(s, k) {
   let encoded = '';
-  k = k%26;
+  k = k % 26;
 
   for (let i = 0; i < s.length; i++ ) {
     let code = s.charCodeAt(i);
