@@ -19,7 +19,3 @@ function caesarCipher(s, k) {
 
   return encoded;
 }
-
-console.log(caesarCipher('There', 3));
-
-console.log(12%5);
