@@ -27,8 +27,7 @@ function superDigit(n, k) {
 
 function superDigit(n, k) {
   n = n.split("").reduce((a, b) => +a + +b) * k + "";
-  console.log(n);
-  return (n.length > 1) ? superDigit(n, 1) : n.charAt(0);
+  return (n.length > 1) ? superDigit(n, 1) : n
 }
 
 console.log(superDigit('9875', 4));
