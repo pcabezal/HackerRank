@@ -39,6 +39,3 @@ function isBalanced(s) {
   // return true if stacks are all empty
   return (stack.length == 0) ? 'YES': 'NO';
 }
-
-console.log(isBalanced(`()`));
-console.log(isBalanced(`{[(])}`));
